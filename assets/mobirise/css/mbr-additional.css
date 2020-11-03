@@ -1,5 +1,5 @@
 @import url(https://fonts.googleapis.com/css?family=Rubik:300,400,500,600,700,800,900,300i,400i,500i,600i,700i,800i,900i&display=swap);
-
+@import url(https://fonts.googleapis.com/css?family=Roboto:100,100i,300,300i,400,400i,500,500i,700,700i,900,900i&display=swap);
 
 
 
@@ -8,43 +8,43 @@ body {
 }
 .display-1 {
   font-family: 'herculanum';
-  font-size: 4.25rem;
+  font-size: 2.6rem;
   font-display: swap;
 }
 .display-1 > .mbr-iconfont {
-  font-size: 6.8rem;
+  font-size: 4.16rem;
 }
 .display-2 {
   font-family: 'Rubik', sans-serif;
-  font-size: 2.4rem;
+  font-size: 3.4rem;
   font-display: swap;
 }
 .display-2 > .mbr-iconfont {
-  font-size: 3.84rem;
+  font-size: 5.44rem;
 }
 .display-4 {
-  font-family: 'Rubik', sans-serif;
-  font-size: 1rem;
+  font-family: 'Roboto', sans-serif;
+  font-size: 1.2rem;
   font-display: swap;
 }
 .display-4 > .mbr-iconfont {
-  font-size: 1.6rem;
+  font-size: 1.92rem;
 }
 .display-5 {
-  font-family: 'Rubik', sans-serif;
-  font-size: 1rem;
+  font-family: 'Roboto', sans-serif;
+  font-size: 1.8rem;
   font-display: swap;
 }
 .display-5 > .mbr-iconfont {
-  font-size: 1.6rem;
+  font-size: 2.88rem;
 }
 .display-7 {
-  font-family: 'Rubik', sans-serif;
-  font-size: 2rem;
+  font-family: 'herculanum';
+  font-size: 1.8rem;
   font-display: swap;
 }
 .display-7 > .mbr-iconfont {
-  font-size: 3.2rem;
+  font-size: 2.88rem;
 }
 /* ---- Fluid typography for mobile devices ---- */
 /* 1.4 - font scale ratio ( bootstrap == 1.42857 ) */
@@ -53,24 +53,24 @@ body {
 /* 0.65 - min scale variable, may vary */
 @media (max-width: 768px) {
   .display-1 {
-    font-size: 3.4rem;
-    font-size: calc( 2.1374999999999997rem + (4.25 - 2.1374999999999997) * ((100vw - 20rem) / (48 - 20)));
-    line-height: calc( 1.4 * (2.1374999999999997rem + (4.25 - 2.1374999999999997) * ((100vw - 20rem) / (48 - 20))));
+    font-size: 2.08rem;
+    font-size: calc( 1.56rem + (2.6 - 1.56) * ((100vw - 20rem) / (48 - 20)));
+    line-height: calc( 1.4 * (1.56rem + (2.6 - 1.56) * ((100vw - 20rem) / (48 - 20))));
   }
   .display-2 {
-    font-size: 1.92rem;
-    font-size: calc( 1.49rem + (2.4 - 1.49) * ((100vw - 20rem) / (48 - 20)));
-    line-height: calc( 1.4 * (1.49rem + (2.4 - 1.49) * ((100vw - 20rem) / (48 - 20))));
+    font-size: 2.72rem;
+    font-size: calc( 1.8399999999999999rem + (3.4 - 1.8399999999999999) * ((100vw - 20rem) / (48 - 20)));
+    line-height: calc( 1.4 * (1.8399999999999999rem + (3.4 - 1.8399999999999999) * ((100vw - 20rem) / (48 - 20))));
   }
   .display-4 {
-    font-size: 0.8rem;
-    font-size: calc( 1rem + (1 - 1) * ((100vw - 20rem) / (48 - 20)));
-    line-height: calc( 1.4 * (1rem + (1 - 1) * ((100vw - 20rem) / (48 - 20))));
+    font-size: 0.96rem;
+    font-size: calc( 1.07rem + (1.2 - 1.07) * ((100vw - 20rem) / (48 - 20)));
+    line-height: calc( 1.4 * (1.07rem + (1.2 - 1.07) * ((100vw - 20rem) / (48 - 20))));
   }
   .display-5 {
-    font-size: 0.8rem;
-    font-size: calc( 1rem + (1 - 1) * ((100vw - 20rem) / (48 - 20)));
-    line-height: calc( 1.4 * (1rem + (1 - 1) * ((100vw - 20rem) / (48 - 20))));
+    font-size: 1.44rem;
+    font-size: calc( 1.28rem + (1.8 - 1.28) * ((100vw - 20rem) / (48 - 20)));
+    line-height: calc( 1.4 * (1.28rem + (1.8 - 1.28) * ((100vw - 20rem) / (48 - 20))));
   }
 }
 /* Buttons */
@@ -545,12 +545,12 @@ a:hover {
   display: none;
 }
 .form-control {
-  font-family: 'Rubik', sans-serif;
-  font-size: 2rem;
+  font-family: 'herculanum';
+  font-size: 1.8rem;
   font-display: swap;
 }
 .form-control > .mbr-iconfont {
-  font-size: 3.2rem;
+  font-size: 2.88rem;
 }
 blockquote {
   border-color: #74fdff;
@@ -685,12 +685,12 @@ section.lazy-placeholder:after {
 }
 .cid-seYfX4NO5e .navbar {
   padding: .5rem 0;
-  background: #333333;
+  background: #232323;
   transition: none;
   min-height: 77px;
 }
 .cid-seYfX4NO5e .navbar-dropdown.bg-color.transparent.opened {
-  background: #333333;
+  background: #232323;
 }
 .cid-seYfX4NO5e a {
   font-style: normal;
@@ -781,7 +781,7 @@ section.lazy-placeholder:after {
   padding-bottom: 0;
 }
 .cid-seYfX4NO5e .dropdown .dropdown-menu {
-  background: #333333;
+  background: #232323;
   visibility: hidden;
   display: block;
   position: absolute;
@@ -933,7 +933,7 @@ section.lazy-placeholder:after {
 }
 @media (min-width: 1024px) {
   .cid-seYfX4NO5e .collapsed:not(.navbar-short) .navbar-collapse {
-    max-height: calc(98.5vh - 3.8rem);
+    max-height: calc(98.5vh - 5rem);
   }
 }
 .cid-seYfX4NO5e .collapsed button.navbar-toggler {
@@ -1115,8 +1115,8 @@ section.lazy-placeholder:after {
   text-align: center;
 }
 .cid-seYxrtn5Bp {
-  padding-top: 60px;
-  padding-bottom: 60px;
+  padding-top: 15px;
+  padding-bottom: 0px;
   background-color: #ffffff;
 }
 .cid-seYxrtn5Bp .title {
@@ -1138,6 +1138,9 @@ section.lazy-placeholder:after {
 .cid-seYxrtn5Bp H2 {
   text-align: center;
 }
+.cid-seYxrtn5Bp LABEL {
+  text-align: left;
+}
 .cid-sfajNl5xas {
   padding-top: 90px;
   padding-bottom: 90px;
@@ -1145,7 +1148,7 @@ section.lazy-placeholder:after {
 }
 .cid-sfajNl5xas .mbr-iconfont-social {
   font-size: 32px;
-  color: #ff3366;
+  color: #149dcc;
 }
 .cid-sfajNl5xas .social-list a:focus {
   text-decoration: none;
@@ -1240,12 +1243,12 @@ section.lazy-placeholder:after {
 }
 .cid-seYfX4NO5e .navbar {
   padding: .5rem 0;
-  background: #333333;
+  background: #232323;
   transition: none;
   min-height: 77px;
 }
 .cid-seYfX4NO5e .navbar-dropdown.bg-color.transparent.opened {
-  background: #333333;
+  background: #232323;
 }
 .cid-seYfX4NO5e a {
   font-style: normal;
@@ -1336,7 +1339,7 @@ section.lazy-placeholder:after {
   padding-bottom: 0;
 }
 .cid-seYfX4NO5e .dropdown .dropdown-menu {
-  background: #333333;
+  background: #232323;
   visibility: hidden;
   display: block;
   position: absolute;
@@ -1488,7 +1491,7 @@ section.lazy-placeholder:after {
 }
 @media (min-width: 1024px) {
   .cid-seYfX4NO5e .collapsed:not(.navbar-short) .navbar-collapse {
-    max-height: calc(98.5vh - 3.8rem);
+    max-height: calc(98.5vh - 5rem);
   }
 }
 .cid-seYfX4NO5e .collapsed button.navbar-toggler {
@@ -1889,12 +1892,12 @@ section.lazy-placeholder:after {
 }
 .cid-seYfX4NO5e .navbar {
   padding: .5rem 0;
-  background: #333333;
+  background: #232323;
   transition: none;
   min-height: 77px;
 }
 .cid-seYfX4NO5e .navbar-dropdown.bg-color.transparent.opened {
-  background: #333333;
+  background: #232323;
 }
 .cid-seYfX4NO5e a {
   font-style: normal;
@@ -1985,7 +1988,7 @@ section.lazy-placeholder:after {
   padding-bottom: 0;
 }
 .cid-seYfX4NO5e .dropdown .dropdown-menu {
-  background: #333333;
+  background: #232323;
   visibility: hidden;
   display: block;
   position: absolute;
@@ -2137,7 +2140,7 @@ section.lazy-placeholder:after {
 }
 @media (min-width: 1024px) {
   .cid-seYfX4NO5e .collapsed:not(.navbar-short) .navbar-collapse {
-    max-height: calc(98.5vh - 3.8rem);
+    max-height: calc(98.5vh - 5rem);
   }
 }
 .cid-seYfX4NO5e .collapsed button.navbar-toggler {
@@ -2296,7 +2299,7 @@ section.lazy-placeholder:after {
   color: #c1c1c1 !important;
 }
 .cid-sfaHBiYdAJ {
-  padding-top: 45px;
+  padding-top: 120px;
   padding-bottom: 45px;
   background: #ffffff;
 }
