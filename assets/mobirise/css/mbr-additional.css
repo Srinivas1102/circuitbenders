@@ -933,7 +933,7 @@ section.lazy-placeholder:after {
 }
 @media (min-width: 1024px) {
   .cid-seYfX4NO5e .collapsed:not(.navbar-short) .navbar-collapse {
-    max-height: calc(98.5vh - 5rem);
+    max-height: calc(98.5vh - 5.2rem);
   }
 }
 .cid-seYfX4NO5e .collapsed button.navbar-toggler {
@@ -1115,7 +1115,7 @@ section.lazy-placeholder:after {
   text-align: center;
 }
 .cid-seYxrtn5Bp {
-  padding-top: 15px;
+  padding-top: 30px;
   padding-bottom: 0px;
   background-color: #ffffff;
 }
@@ -1491,7 +1491,7 @@ section.lazy-placeholder:after {
 }
 @media (min-width: 1024px) {
   .cid-seYfX4NO5e .collapsed:not(.navbar-short) .navbar-collapse {
-    max-height: calc(98.5vh - 5rem);
+    max-height: calc(98.5vh - 5.2rem);
   }
 }
 .cid-seYfX4NO5e .collapsed button.navbar-toggler {
@@ -2140,7 +2140,7 @@ section.lazy-placeholder:after {
 }
 @media (min-width: 1024px) {
   .cid-seYfX4NO5e .collapsed:not(.navbar-short) .navbar-collapse {
-    max-height: calc(98.5vh - 5rem);
+    max-height: calc(98.5vh - 5.2rem);
   }
 }
 .cid-seYfX4NO5e .collapsed button.navbar-toggler {
